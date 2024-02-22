@@ -1,6 +1,6 @@
 # G3n.ai
 
-G3n.ai is a project aimed at leveraging AI models to create innovative solutions for text-to-image, music generation, and speech synthesis. The project utilizes FastAPI for building the backend API and integrates with frontend frameworks like React, Vue.js, and Tailwind CSS for a seamless user experience.
+G3n.ai is a project aimed at leveraging AI models to create innovative solutions for text-to-image, music generation, and speech synthesis. The project utilizes FastAPI for building the backend API and integrates with frontend frameworks like React, Three.js, and Tailwind CSS for a seamless user experience.
 
 ## Features
 
@@ -12,7 +12,7 @@ G3n.ai is a project aimed at leveraging AI models to create innovative solutions
 
 - FastAPI: Backend framework for building robust and high-performance APIs.
 - React: JavaScript library for building user interfaces.
-- Vue.js: Progressive JavaScript framework for building interactive web interfaces.
+-Three.js: JavaScript 3D library for creating and displaying 3D computer graphics in a web browser.
 - Tailwind CSS: Utility-first CSS framework for designing modern and responsive UIs.
 - AI Models: State-of-the-art machine learning/Deep Learning models for text-to-image, music generation, and speech synthesis.
 
