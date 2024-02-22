@@ -12,7 +12,7 @@ G3n.ai is a project aimed at leveraging AI models to create innovative solutions
 
 - FastAPI: Backend framework for building robust and high-performance APIs.
 - React: JavaScript library for building user interfaces.
--Three.js: JavaScript 3D library for creating and displaying 3D computer graphics in a web browser.
+- Three.js: JavaScript 3D library for creating and displaying 3D computer graphics in a web browser.
 - Tailwind CSS: Utility-first CSS framework for designing modern and responsive UIs.
 - AI Models: State-of-the-art machine learning/Deep Learning models for text-to-image, music generation, and speech synthesis.
 
