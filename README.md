@@ -14,7 +14,7 @@ G3n.ai is a project aimed at leveraging AI models to create innovative solutions
 - React: JavaScript library for building user interfaces.
 - Vue.js: Progressive JavaScript framework for building interactive web interfaces.
 - Tailwind CSS: Utility-first CSS framework for designing modern and responsive UIs.
-- AI Models: State-of-the-art machine learning models for text-to-image, music generation, and speech synthesis.
+- AI Models: State-of-the-art machine learning/Deep Learning models for text-to-image, music generation, and speech synthesis.
 
 
 
