@@ -1,0 +1,18 @@
+{
+    "sourceFile": "public/three/index.html",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1708594959861,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1708594959861,
+            "name": "Commit-0",
+            "content": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n  <head>\r\n    <meta charset=\"UTF-8\" />\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\r\n    <link rel=\"stylesheet\" href=\"./style.css\">\r\n    <script type=\"module\" src=\"./script.js\"></script>\r\n    <title>Document</title>\r\n  </head>\r\n  <body>\r\n    <div class=\"page\">\r\n      <!-- <div class=\"title\">click to add a pointer</div> -->\r\n      <div class=\"globe-wrapper\">\r\n        <canvas id=\"globe-3d\"></canvas>\r\n        <canvas id=\"globe-2d-overlay\"></canvas>\r\n        <div id=\"globe-popup-overlay\">\r\n          <div class=\"globe-popup\"></div>\r\n        </div>\r\n      </div>\r\n    </div>\r\n\r\n    <script type=\"x-shader/x-fragment\" id=\"fragment-shader-map\">\r\n      uniform sampler2D u_map_tex;\r\n\r\n      varying float vOpacity;\r\n      varying vec2 vUv;\r\n\r\n      void main() {\r\n          vec3 color = texture2D(u_map_tex, vUv).rgb;\r\n          color -= .2 * length(gl_PointCoord.xy - vec2(.5));\r\n          float dot = 1. - smoothstep(.38, .4, length(gl_PointCoord.xy - vec2(.5)));\r\n          if (dot < 0.5) discard;\r\n          gl_FragColor = vec4(color, dot * vOpacity);\r\n      }\r\n    </script>\r\n\r\n    <script type=\"x-shader/x-vertex\" id=\"vertex-shader-map\">\r\n      uniform sampler2D u_map_tex;\r\n      uniform float u_dot_size;\r\n      uniform float u_time_since_click;\r\n      uniform vec3 u_pointer;\r\n\r\n      #define PI 3.14159265359\r\n\r\n      varying float vOpacity;\r\n      varying vec2 vUv;\r\n\r\n      void main() {\r\n\r\n          vUv = uv;\r\n\r\n          // mask with world map\r\n          float visibility = step(.2, texture2D(u_map_tex, uv).r);\r\n          gl_PointSize = visibility * u_dot_size;\r\n\r\n          // make back dots semi-transparent\r\n          vec4 mvPosition = modelViewMatrix * vec4(position, 1.0);\r\n          vOpacity = (1. / length(mvPosition.xyz) - .7);\r\n          vOpacity = clamp(vOpacity, .03, 1.);\r\n\r\n          // add ripple\r\n          float t = u_time_since_click - .1;\r\n          t = max(0., t);\r\n          float max_amp = .15;\r\n          float dist = 1. - .5 * length(position - u_pointer); // 0 .. 1\r\n          float damping = 1. / (1. + 20. * t); // 1 .. 0\r\n          float delta = max_amp * damping * sin(5. * t * (1. + 2. * dist) - PI);\r\n          delta *= 1. - smoothstep(.8, 1., dist);\r\n          vec3 pos = position;\r\n          pos *= (1. + delta);\r\n\r\n          gl_Position = projectionMatrix * modelViewMatrix * vec4(pos, 1.);\r\n      }\r\n    </script>\r\n  </body>\r\n</html>\r\n"
+        }
+    ]
+}

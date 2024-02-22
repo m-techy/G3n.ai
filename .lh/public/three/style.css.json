@@ -1,0 +1,62 @@
+{
+    "sourceFile": "public/three/style.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 11,
+            "patches": [
+                {
+                    "date": 1708594449465,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1708594636748,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n .page {\r\n     width: 100%;\r\n-    /* height: 100vh; */\r\n+    height: 70vh;\r\n     display: flex;\r\n     justify-content: center;\r\n     align-items: center;\r\n }\r\n"
+                },
+                {
+                    "date": 1708594656766,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,38 @@\n+.page {\r\n+    width: 100%;\r\n+    height: 90vh;\r\n+    display: flex;\r\n+    justify-content: center;\r\n+    align-items: center;\r\n+}\r\n+\r\n+.title {\r\n+\t position: fixed;\r\n+\t bottom: 10%;\r\n+\t left: 0;\r\n+\t width: 100%;\r\n+\t text-align: center;\r\n+\t font-family: sans-serif;\r\n+}\r\n+\r\n+#globe-3d, #globe-2d-overlay, #globe-popup-overlay, .globe-popup {\r\n+    display: block;\r\n+    position: absolute;\r\n+}\r\n+\r\n+#globe-2d-overlay, #globe-popup-overlay {\r\n+    pointer-events: none;\r\n+}\r\n+\r\n+.globe-popup {\r\n+    top: 0;\r\n+    left: 0;\r\n+    background-color: white;\r\n+    opacity: 0;\r\n+    color: #111;\r\n+    font-family: sans-serif;\r\n+    padding: 5px 10px;\r\n+    font-size: 15px;\r\n+    border-radius: 3px;\r\n+    filter: drop-shadow(0px 0px 3px #555555);\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1708595213708,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,8 +3,9 @@\n     height: 90vh;\r\n     display: flex;\r\n     justify-content: center;\r\n     align-items: center;\r\n+    overflow: hidden;\r\n }\r\n \r\n .title {\r\n \t position: fixed;\r\n@@ -34,43 +35,5 @@\n     padding: 5px 10px;\r\n     font-size: 15px;\r\n     border-radius: 3px;\r\n     filter: drop-shadow(0px 0px 3px #555555);\r\n-}\n-.page {\r\n-    width: 100%;\r\n-    height: 70vh;\r\n-    display: flex;\r\n-    justify-content: center;\r\n-    align-items: center;\r\n-}\r\n-\r\n-.title {\r\n-\t position: fixed;\r\n-\t bottom: 10%;\r\n-\t left: 0;\r\n-\t width: 100%;\r\n-\t text-align: center;\r\n-\t font-family: sans-serif;\r\n-}\r\n-\r\n-#globe-3d, #globe-2d-overlay, #globe-popup-overlay, .globe-popup {\r\n-    display: block;\r\n-    position: absolute;\r\n-}\r\n-\r\n-#globe-2d-overlay, #globe-popup-overlay {\r\n-    pointer-events: none;\r\n-}\r\n-\r\n-.globe-popup {\r\n-    top: 0;\r\n-    left: 0;\r\n-    background-color: white;\r\n-    opacity: 0;\r\n-    color: #111;\r\n-    font-family: sans-serif;\r\n-    padding: 5px 10px;\r\n-    font-size: 15px;\r\n-    border-radius: 3px;\r\n-    filter: drop-shadow(0px 0px 3px #555555);\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1708595338736,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n .page {\r\n     width: 100%;\r\n-    height: 90vh;\r\n+    height: 85vh;\r\n     display: flex;\r\n     justify-content: center;\r\n     align-items: center;\r\n     overflow: hidden;\r\n"
+                },
+                {
+                    "date": 1708595359460,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n .page {\r\n     width: 100%;\r\n-    height: 85vh;\r\n+    height: 80vh;\r\n     display: flex;\r\n     justify-content: center;\r\n     align-items: center;\r\n     overflow: hidden;\r\n"
+                },
+                {
+                    "date": 1708595453698,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,11 +1,18 @@\n+body {\r\n+    padding: 0;\r\n+    margin: 0;\r\n+    overflow: hidden;\r\n+\t\r\n+}\r\n+\r\n .page {\r\n     width: 100%;\r\n     height: 80vh;\r\n     display: flex;\r\n     justify-content: center;\r\n     align-items: center;\r\n-    overflow: hidden;\r\n+    /* overflow: hidden; */\r\n }\r\n \r\n .title {\r\n \t position: fixed;\r\n"
+                },
+                {
+                    "date": 1708595466389,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n }\r\n \r\n .page {\r\n     width: 100%;\r\n-    height: 80vh;\r\n+    height: 90vh;\r\n     display: flex;\r\n     justify-content: center;\r\n     align-items: center;\r\n     /* overflow: hidden; */\r\n"
+                },
+                {
+                    "date": 1708595644456,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n }\r\n \r\n .page {\r\n     width: 100%;\r\n-    height: 90vh;\r\n+    height: 95vh;\r\n     display: flex;\r\n     justify-content: center;\r\n     align-items: center;\r\n     /* overflow: hidden; */\r\n"
+                },
+                {
+                    "date": 1708595836590,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n }\r\n \r\n .page {\r\n     width: 100%;\r\n-    height: 95vh;\r\n+    height: 100vh;\r\n     display: flex;\r\n     justify-content: center;\r\n     align-items: center;\r\n     /* overflow: hidden; */\r\n"
+                },
+                {
+                    "date": 1708595851393,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,46 @@\n+body {\r\n+    padding: 0;\r\n+    margin: 0;\r\n+    overflow: hidden;\r\n+\t\r\n+}\r\n+\r\n+.page {\r\n+    width: 100%;\r\n+    height: 110vh;\r\n+    display: flex;\r\n+    justify-content: center;\r\n+    align-items: center;\r\n+    /* overflow: hidden; */\r\n+}\r\n+\r\n+.title {\r\n+\t position: fixed;\r\n+\t bottom: 10%;\r\n+\t left: 0;\r\n+\t width: 100%;\r\n+\t text-align: center;\r\n+\t font-family: sans-serif;\r\n+}\r\n+\r\n+#globe-3d, #globe-2d-overlay, #globe-popup-overlay, .globe-popup {\r\n+    display: block;\r\n+    position: absolute;\r\n+}\r\n+\r\n+#globe-2d-overlay, #globe-popup-overlay {\r\n+    pointer-events: none;\r\n+}\r\n+\r\n+.globe-popup {\r\n+    top: 0;\r\n+    left: 0;\r\n+    background-color: white;\r\n+    opacity: 0;\r\n+    color: #111;\r\n+    font-family: sans-serif;\r\n+    padding: 5px 10px;\r\n+    font-size: 15px;\r\n+    border-radius: 3px;\r\n+    filter: drop-shadow(0px 0px 3px #555555);\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1708595866039,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,46 @@\n+body {\r\n+    padding: 0;\r\n+    margin: 0;\r\n+    overflow: hidden;\r\n+\t\r\n+}\r\n+\r\n+.page {\r\n+    width: 100%;\r\n+    height: 95vh;\r\n+    display: flex;\r\n+    justify-content: center;\r\n+    align-items: center;\r\n+    /* overflow: hidden; */\r\n+}\r\n+\r\n+.title {\r\n+\t position: fixed;\r\n+\t bottom: 10%;\r\n+\t left: 0;\r\n+\t width: 100%;\r\n+\t text-align: center;\r\n+\t font-family: sans-serif;\r\n+}\r\n+\r\n+#globe-3d, #globe-2d-overlay, #globe-popup-overlay, .globe-popup {\r\n+    display: block;\r\n+    position: absolute;\r\n+}\r\n+\r\n+#globe-2d-overlay, #globe-popup-overlay {\r\n+    pointer-events: none;\r\n+}\r\n+\r\n+.globe-popup {\r\n+    top: 0;\r\n+    left: 0;\r\n+    background-color: white;\r\n+    opacity: 0;\r\n+    color: #111;\r\n+    font-family: sans-serif;\r\n+    padding: 5px 10px;\r\n+    font-size: 15px;\r\n+    border-radius: 3px;\r\n+    filter: drop-shadow(0px 0px 3px #555555);\r\n+}\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1708594449465,
+            "name": "Commit-0",
+            "content": ".page {\r\n    width: 100%;\r\n    /* height: 100vh; */\r\n    display: flex;\r\n    justify-content: center;\r\n    align-items: center;\r\n}\r\n\r\n.title {\r\n\t position: fixed;\r\n\t bottom: 10%;\r\n\t left: 0;\r\n\t width: 100%;\r\n\t text-align: center;\r\n\t font-family: sans-serif;\r\n}\r\n\r\n#globe-3d, #globe-2d-overlay, #globe-popup-overlay, .globe-popup {\r\n    display: block;\r\n    position: absolute;\r\n}\r\n\r\n#globe-2d-overlay, #globe-popup-overlay {\r\n    pointer-events: none;\r\n}\r\n\r\n.globe-popup {\r\n    top: 0;\r\n    left: 0;\r\n    background-color: white;\r\n    opacity: 0;\r\n    color: #111;\r\n    font-family: sans-serif;\r\n    padding: 5px 10px;\r\n    font-size: 15px;\r\n    border-radius: 3px;\r\n    filter: drop-shadow(0px 0px 3px #555555);\r\n}"
+        }
+    ]
+}
