@@ -5,7 +5,7 @@ import Features from './Features'
 
 const Home = () => {
   return (
-    <div className='h-screen w-full px-[10%] bg-black text-white'>
+    <div className='h-max w-full px-[10%] bg-black text-white'>
         <Header></Header>
         <Hero></Hero>
         <Features></Features>
