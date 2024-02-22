@@ -1,9 +1,20 @@
-# React + Vite
+# G3n.ai
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+G3n.ai is a project aimed at leveraging AI models to create innovative solutions for text-to-image, music generation, and speech synthesis. The project utilizes FastAPI for building the backend API and integrates with frontend frameworks like React, Vue.js, and Tailwind CSS for a seamless user experience.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-"# G3n.ai" 
+- Text to Image: Generate images from textual descriptions using state-of-the-art AI models.
+- Music Generation: Create music compositions based on user input or predefined parameters.
+- Speech Synthesis: Convert text into natural-sounding speech with customizable voices.
+
+## Technologies Used
+
+- FastAPI: Backend framework for building robust and high-performance APIs.
+- React: JavaScript library for building user interfaces.
+- Vue.js: Progressive JavaScript framework for building interactive web interfaces.
+- Tailwind CSS: Utility-first CSS framework for designing modern and responsive UIs.
+- AI Models: State-of-the-art machine learning models for text-to-image, music generation, and speech synthesis.
+
+
+
