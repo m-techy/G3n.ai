@@ -3,8 +3,10 @@ import { Link } from "react-router-dom";
 
 const FeatureComponentRight = ({ content }) => {
   return (
-    <div className="flex">
-      <div className="image w-1/2"></div>
+    <div className="flex items-center">
+      <div className="image w-1/2">
+      <img src={content.image} alt="" />
+      </div>
       <div className="w-1/2 flex flex-col gap-6">
         <div className="heading">
           <div className="text-4xl  font-bold bg-gradient-to-r from-blue-500 to-sky-200  bg-gradient-to-r bg-clip-text text-transparent">

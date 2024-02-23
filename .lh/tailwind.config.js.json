@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 5,
+            "activePatchIndex": 8,
             "patches": [
                 {
                     "date": 1708498400407,
@@ -28,6 +28,18 @@
                 {
                     "date": 1708602320453,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,8 +11,11 @@\n     extend: {\n       fontFamily: {\n         sans: ['Inter var', ...defaultTheme.fontFamily.sans],\n       },\n+      backgroundImage: {\n+        'radial-gradient': 'radial-gradient(circle, rgba(144, 172, 255, 0.2) 0%, rgba(144, 172, 255, 0) 70%, rgba(144, 172, 255, 0) 100%)',\n+      },\n     },\n   },\n   plugins: [],\n }\n"
+                },
+                {
+                    "date": 1708669919346,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,22 +1,25 @@\n-/** @type {import('tailwindcss').Config} */\n-\n-const defaultTheme = require('tailwindcss/defaultTheme') \n-\n-export default {\n-  content: [\n-    \"./index.html\",\n-    \"./src/**/*.{js,jsx}\",\n-  ],\n-  theme: {\n-    extend: {\n-      fontFamily: {\n-        sans: ['Inter var', ...defaultTheme.fontFamily.sans],\n-      },\n-      backgroundImage: {\n-        'radial-gradient': 'radial-gradient(circle, rgba(144, 172, 255, 0.2) 0%, rgba(144, 172, 255, 0) 70%, rgba(144, 172, 255, 0) 100%)',\n-      },\n-    },\n-  },\n-  plugins: [],\n-}\n-\n+/** @type {import('tailwindcss').Config} */\r\n+\r\n+const defaultTheme = require('tailwindcss/defaultTheme') \r\n+\r\n+export default {\r\n+  content: [\r\n+    \"./index.html\",\r\n+    \"./src/**/*.{js,jsx}\",\r\n+  ],\r\n+  theme: {\r\n+    extend: {\r\n+      fontFamily: {\r\n+        sans: ['Inter var', ...defaultTheme.fontFamily.sans],\r\n+      },\r\n+      backgroundImage: {\r\n+        'radial-gradient': 'radial-gradient(circle, rgba(144, 172, 255, 0.2) 0%, rgba(144, 172, 255, 0) 70%, rgba(144, 172, 255, 0) 100%)',\r\n+      },\r\n+      backgroundImage: {\r\n+        'radial-gradient': 'radial-gradient(circle, var(--tw-gradient-stops))',\r\n+      },\r\n+    },\r\n+  },\r\n+  plugins: [],\r\n+}\r\n+\r\n"
+                },
+                {
+                    "date": 1708670141147,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,12 +11,12 @@\n     extend: {\r\n       fontFamily: {\r\n         sans: ['Inter var', ...defaultTheme.fontFamily.sans],\r\n       },\r\n+      // backgroundImage: {\r\n+      //   'radial-gradient': 'radial-gradient(circle, rgba(144, 172, 255, 0.2) 0%, rgba(144, 172, 255, 0) 70%, rgba(144, 172, 255, 0) 100%)',\r\n+      // },\r\n       backgroundImage: {\r\n-        'radial-gradient': 'radial-gradient(circle, rgba(144, 172, 255, 0.2) 0%, rgba(144, 172, 255, 0) 70%, rgba(144, 172, 255, 0) 100%)',\r\n-      },\r\n-      backgroundImage: {\r\n         'radial-gradient': 'radial-gradient(circle, var(--tw-gradient-stops))',\r\n       },\r\n     },\r\n   },\r\n"
+                },
+                {
+                    "date": 1708670147416,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,25 @@\n+/** @type {import('tailwindcss').Config} */\r\n+\r\n+const defaultTheme = require('tailwindcss/defaultTheme') \r\n+\r\n+export default {\r\n+  content: [\r\n+    \"./index.html\",\r\n+    \"./src/**/*.{js,jsx}\",\r\n+  ],\r\n+  theme: {\r\n+    extend: {\r\n+      fontFamily: {\r\n+        sans: ['Inter var', ...defaultTheme.fontFamily.sans],\r\n+      },\r\n+      backgroundImage: {\r\n+        'radial-gradient': 'radial-gradient(circle, rgba(144, 172, 255, 0.2) 0%, rgba(144, 172, 255, 0) 70%, rgba(144, 172, 255, 0) 100%)',\r\n+      },\r\n+      backgroundImage: {\r\n+        'radial-gradient': 'radial-gradient(circle, var(--tw-gradient-stops))',\r\n+      },\r\n+    },\r\n+  },\r\n+  plugins: [],\r\n+}\r\n+\r\n"
                 }
             ],
             "date": 1708498400407,

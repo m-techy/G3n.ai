@@ -3,7 +3,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 const ProductPage = () => {
     return (
-        <div className="bg-black text-white h-[81.9vh] w-full py-12 flex flex-col gap-10 overflow-y-hidden">
+        <div className="bg-black text-white h-[90vh] w-full py-12 flex flex-col gap-10 overflow-y-hidden">
             <article className="heading text-center text-4xl font-bold bg-gradient-to-r from-blue-500 to-sky-200  bg-clip-text text-transparent">
                 GENERATIVE AI MODELS
             </article>

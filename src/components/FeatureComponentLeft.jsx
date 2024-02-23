@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const FeatureComponentLeft = ({ content }) => {
   return (
-    <div className="flex">
+    <div className="flex items-center gap-5">
       <div className="w-1/2 flex flex-col gap-6">
         <div className="heading">
           <div className="text-4xl  font-bold  from-blue-500 to-sky-200  bg-gradient-to-r bg-clip-text text-transparent">
@@ -136,7 +136,9 @@ const FeatureComponentLeft = ({ content }) => {
           </button>
         </Link>
       </div>
-      <div className="image w-1/2"></div>
+      <div className="image w-1/2">
+        <img src={content.image} alt="" />
+      </div>
     </div>
   );
 };
