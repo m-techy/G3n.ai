@@ -11,12 +11,10 @@ G3n.ai is a project aimed at leveraging AI models to create innovative solutions
 ##Backend GEN AI FastAPI Models deployed to Render
 
 
-Text to Image: https://github.com/rakeshrohan-123/TTI
+Text to Image
+Music Generation
 
-Music Generation:https://github.com/rakeshrohan-123/MusicGenerate
-
-Speech Synthesis:https://github.com/omer2626/TTS_fastAPI
-
+Speech Synthesis
 
 ## Technologies Used
 
