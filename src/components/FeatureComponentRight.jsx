@@ -9,7 +9,7 @@ const FeatureComponentRight = ({ content }) => {
       </div>
       <div className="w-1/2 flex flex-col gap-6">
         <div className="heading">
-          <div className="text-4xl  font-bold bg-gradient-to-r from-blue-500 to-sky-200  bg-gradient-to-r bg-clip-text text-transparent">
+          <div className="text-4xl  font-bold from-blue-500 to-sky-200  bg-gradient-to-r bg-clip-text text-transparent">
             {content.heading}
           </div>
           <div className="text-4xl font-bold">{content.caption}</div>
