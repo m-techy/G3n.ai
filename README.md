@@ -8,6 +8,16 @@ G3n.ai is a project aimed at leveraging AI models to create innovative solutions
 - Music Generation: Create music compositions based on user input or predefined parameters.
 - Speech Synthesis: Convert text into natural-sounding speech with customizable voices.
 
+##Backend GEN AI FastAPI Models deployed to Render
+
+
+Text to Image: https://github.com/rakeshrohan-123/TTI
+
+Music Generation:https://github.com/rakeshrohan-123/MusicGenerate
+
+Speech Synthesis:https://github.com/omer2626/TTS_fastAPI
+
+
 ## Technologies Used
 
 - FastAPI: Backend framework for building robust and high-performance APIs.
@@ -23,11 +33,6 @@ G3n.ai is a project aimed at leveraging AI models to create innovative solutions
 2. Install dependencies:
 3. npm install
 4. npm run dev
-
-##Backend GEN AI FastAPI Models deployed to Render
-https://github.com/rakeshrohan-123/TTI
-https://github.com/rakeshrohan-123/MusicGenerate
-https://github.com/omer2626/TTS_fastAPI
 
 
 
