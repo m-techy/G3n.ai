@@ -1,0 +1,18 @@
+{
+    "sourceFile": "src/components/HomePage.jsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1708683803021,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1708683803021,
+            "name": "Commit-0",
+            "content": "import React from 'react'\r\nimport Hero from './Hero'\r\nimport Features from './Features'\r\nimport FooterCopyright from './FooterCopyright'\r\n\r\nconst HomePage = () => {\r\n  return (\r\n    <>\r\n        <Hero></Hero>\r\n        <Features></Features>\r\n        <FooterCopyright></FooterCopyright>\r\n    </>\r\n  )\r\n}\r\n\r\nexport default HomePage\r\n"
+        }
+    ]
+}

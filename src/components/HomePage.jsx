@@ -8,6 +8,7 @@ const HomePage = () => {
     <>
         <Hero></Hero>
         <Features></Features>
+        <FooterCopyright></FooterCopyright>
     </>
   )
 }
