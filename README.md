@@ -17,4 +17,18 @@ G3n.ai is a project aimed at leveraging AI models to create innovative solutions
 - AI Models: State-of-the-art machine learning/Deep Learning models for text-to-image, music generation, and speech synthesis.
 
 
+## Installation
+
+1. Clone the repository: git clone https://github.com/your-username/G3n.ai.git
+2. Install dependencies:
+3. npm install
+4. npm run dev
+
+##Backend GEN AI FastAPI Models deployed to Render
+https://github.com/rakeshrohan-123/TTI
+https://github.com/rakeshrohan-123/MusicGenerate
+https://github.com/omer2626/TTS_fastAPI
+
+
+
 
