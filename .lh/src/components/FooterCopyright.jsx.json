@@ -1,0 +1,102 @@
+{
+    "sourceFile": "src/components/FooterCopyright.jsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 21,
+            "patches": [
+                {
+                    "date": 1708664562211,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1708664601567,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n \r\n const FooterCopyright = () => {\r\n   return (\r\n     <div>\r\n-        <div className='h-1 w-full bg-white'></div>\r\n+        <div className='h-[2px] w-full bg-white'></div>\r\n         <div></div>\r\n     </div>\r\n   )\r\n }\r\n"
+                },
+                {
+                    "date": 1708664708465,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,12 +1,15 @@\n-import React from 'react'\r\n+import React from \"react\";\r\n \r\n const FooterCopyright = () => {\r\n   return (\r\n     <div>\r\n-        <div className='h-[2px] w-full bg-white'></div>\r\n-        <div></div>\r\n+      <div className=\"h-[2px] w-full bg-white\"></div>\r\n+      <div>\r\n+        <div>Copyright © 2024 G3n.ai. All rights reserved.</div>\r\n+        <div>Terms of IJse & Privacy Policy</div>\r\n\\ No newline at end of file\n+      </div>\r\n     </div>\r\n-  )\r\n-}\r\n+  );\r\n+};\r\n \r\n-export default FooterCopyright\n+export default FooterCopyright;\r\n"
+                },
+                {
+                    "date": 1708664718090,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,15 @@\n+import React from \"react\";\r\n+\r\n+const FooterCopyright = () => {\r\n+  return (\r\n+    <div>\r\n+      <div className=\"h-[2px] w-full bg-white\"></div>\r\n+      <div>\r\n+        <div>Copyright © 2024 G3n.ai All rights reserved.</div>\r\n+        <div>Terms of IJse & Privacy Policy</div>\r\n+      </div>\r\n+    </div>\r\n+  );\r\n+};\r\n+\r\n+export default FooterCopyright;\r\n"
+                },
+                {
+                    "date": 1708664734673,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,28 +3,13 @@\n const FooterCopyright = () => {\r\n   return (\r\n     <div>\r\n       <div className=\"h-[2px] w-full bg-white\"></div>\r\n-      <div>\r\n-        <div>Copyright © 2024 G3n.ai All rights reserved.</div>\r\n+      <div className=\"flex \">\r\n+        <div>Copyright © 2024 G3n.ai. All rights reserved.</div>\r\n         <div>Terms of IJse & Privacy Policy</div>\r\n       </div>\r\n     </div>\r\n   );\r\n };\r\n \r\n export default FooterCopyright;\r\n-import React from \"react\";\r\n-\r\n-const FooterCopyright = () => {\r\n-  return (\r\n-    <div>\r\n-      <div className=\"h-[2px] w-full bg-white\"></div>\r\n-      <div>\r\n-        <div>Copyright © 2024 G3n.ai. All rights reserved.</div>\r\n-        <div>Terms of IJse & Privacy Policy</div>\r\n-      </div>\r\n-    </div>\r\n-  );\r\n-};\r\n\\ No newline at end of file\n-\r\n-export default FooterCopyright;\n"
+                },
+                {
+                    "date": 1708664744987,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n     <div>\r\n       <div className=\"h-[2px] w-full bg-white\"></div>\r\n       <div className=\"flex \">\r\n         <div>Copyright © 2024 G3n.ai. All rights reserved.</div>\r\n-        <div>Terms of IJse & Privacy Policy</div>\r\n+        <div>Terms of Use & Privacy Policy</div>\r\n       </div>\r\n     </div>\r\n   );\r\n };\r\n"
+                },
+                {
+                    "date": 1708664755908,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n const FooterCopyright = () => {\r\n   return (\r\n     <div>\r\n       <div className=\"h-[2px] w-full bg-white\"></div>\r\n-      <div className=\"flex \">\r\n+      <div className=\"flex justify-between \">\r\n         <div>Copyright © 2024 G3n.ai. All rights reserved.</div>\r\n         <div>Terms of Use & Privacy Policy</div>\r\n       </div>\r\n     </div>\r\n"
+                },
+                {
+                    "date": 1708664776816,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,15 @@\n+import React from \"react\";\r\n+\r\n+const FooterCopyright = () => {\r\n+  return (\r\n+    <div>\r\n+      <div className=\"h-[2px] w-full bg-white\"></div>\r\n+      <div className=\"flex justify-between text-xs \">\r\n+        <div>Copyright © 2024 G3n.ai. All rights reserved.</div>\r\n+        <div>Terms of Use & Privacy Policy</div>\r\n+      </div>\r\n+    </div>\r\n+  );\r\n+};\r\n+\r\n+export default FooterCopyright;\r\n"
+                },
+                {
+                    "date": 1708664808040,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import React from \"react\";\r\n \r\n const FooterCopyright = () => {\r\n   return (\r\n-    <div>\r\n+    <div flex-col gap-2>\r\n       <div className=\"h-[2px] w-full bg-white\"></div>\r\n       <div className=\"flex justify-between text-xs \">\r\n         <div>Copyright © 2024 G3n.ai. All rights reserved.</div>\r\n         <div>Terms of Use & Privacy Policy</div>\r\n@@ -12,19 +12,4 @@\n   );\r\n };\r\n \r\n export default FooterCopyright;\r\n-import React from \"react\";\r\n-\r\n-const FooterCopyright = () => {\r\n-  return (\r\n-    <div>\r\n-      <div className=\"h-[2px] w-full bg-white\"></div>\r\n-      <div className=\"flex justify-between \">\r\n-        <div>Copyright © 2024 G3n.ai. All rights reserved.</div>\r\n-        <div>Terms of Use & Privacy Policy</div>\r\n-      </div>\r\n-    </div>\r\n-  );\r\n-};\r\n-\r\n-export default FooterCopyright;\r\n"
+                },
+                {
+                    "date": 1708664817480,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import React from \"react\";\r\n \r\n const FooterCopyright = () => {\r\n   return (\r\n-    <div flex-col gap-2>\r\n+    <div className=\"flex-col gap-2\">\r\n       <div className=\"h-[2px] w-full bg-white\"></div>\r\n       <div className=\"flex justify-between text-xs \">\r\n         <div>Copyright © 2024 G3n.ai. All rights reserved.</div>\r\n         <div>Terms of Use & Privacy Policy</div>\r\n"
+                },
+                {
+                    "date": 1708664831220,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import React from \"react\";\r\n \r\n const FooterCopyright = () => {\r\n   return (\r\n-    <div className=\"flex-col gap-2\">\r\n+    <div className=\"flex-col\">\r\n       <div className=\"h-[2px] w-full bg-white\"></div>\r\n       <div className=\"flex justify-between text-xs \">\r\n         <div>Copyright © 2024 G3n.ai. All rights reserved.</div>\r\n         <div>Terms of Use & Privacy Policy</div>\r\n"
+                },
+                {
+                    "date": 1708664845031,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import React from \"react\";\r\n \r\n const FooterCopyright = () => {\r\n   return (\r\n-    <div className=\"flex-col\">\r\n+    <div className=\"flex-col gap-1\">\r\n       <div className=\"h-[2px] w-full bg-white\"></div>\r\n       <div className=\"flex justify-between text-xs \">\r\n         <div>Copyright © 2024 G3n.ai. All rights reserved.</div>\r\n         <div>Terms of Use & Privacy Policy</div>\r\n"
+                },
+                {
+                    "date": 1708664874104,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import React from \"react\";\r\n \r\n const FooterCopyright = () => {\r\n   return (\r\n-    <div className=\"flex-col gap-1\">\r\n+    <div className=\"flex-col gap-8\">\r\n       <div className=\"h-[2px] w-full bg-white\"></div>\r\n       <div className=\"flex justify-between text-xs \">\r\n         <div>Copyright © 2024 G3n.ai. All rights reserved.</div>\r\n         <div>Terms of Use & Privacy Policy</div>\r\n"
+                },
+                {
+                    "date": 1708664899037,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import React from \"react\";\r\n \r\n const FooterCopyright = () => {\r\n   return (\r\n-    <div className=\"flex-col gap-8\">\r\n+    <div >\r\n       <div className=\"h-[2px] w-full bg-white\"></div>\r\n       <div className=\"flex justify-between text-xs \">\r\n         <div>Copyright © 2024 G3n.ai. All rights reserved.</div>\r\n         <div>Terms of Use & Privacy Policy</div>\r\n"
+                },
+                {
+                    "date": 1708664917820,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n \r\n const FooterCopyright = () => {\r\n   return (\r\n     <div >\r\n-      <div className=\"h-[2px] w-full bg-white\"></div>\r\n+      <div className=\"h-[2px] w-full bg-white py-2\"></div>\r\n       <div className=\"flex justify-between text-xs \">\r\n         <div>Copyright © 2024 G3n.ai. All rights reserved.</div>\r\n         <div>Terms of Use & Privacy Policy</div>\r\n       </div>\r\n"
+                },
+                {
+                    "date": 1708664926591,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n \r\n const FooterCopyright = () => {\r\n   return (\r\n     <div >\r\n-      <div className=\"h-[2px] w-full bg-white py-2\"></div>\r\n+      <div className=\"h-[2px] w-full bg-white m-2\"></div>\r\n       <div className=\"flex justify-between text-xs \">\r\n         <div>Copyright © 2024 G3n.ai. All rights reserved.</div>\r\n         <div>Terms of Use & Privacy Policy</div>\r\n       </div>\r\n"
+                },
+                {
+                    "date": 1708664948672,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n \r\n const FooterCopyright = () => {\r\n   return (\r\n     <div >\r\n-      <div className=\"h-[2px] w-full bg-white m-2\"></div>\r\n+      <div className=\"h-[1.3px] w-full bg-white my-2\"></div>\r\n       <div className=\"flex justify-between text-xs \">\r\n         <div>Copyright © 2024 G3n.ai. All rights reserved.</div>\r\n         <div>Terms of Use & Privacy Policy</div>\r\n       </div>\r\n"
+                },
+                {
+                    "date": 1708664956679,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n \r\n const FooterCopyright = () => {\r\n   return (\r\n     <div >\r\n-      <div className=\"h-[1.3px] w-full bg-white my-2\"></div>\r\n+      <div className=\"h-[0.7px] w-full bg-white my-2\"></div>\r\n       <div className=\"flex justify-between text-xs \">\r\n         <div>Copyright © 2024 G3n.ai. All rights reserved.</div>\r\n         <div>Terms of Use & Privacy Policy</div>\r\n       </div>\r\n"
+                },
+                {
+                    "date": 1708664985123,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n const FooterCopyright = () => {\r\n   return (\r\n     <div >\r\n       <div className=\"h-[0.7px] w-full bg-white my-2\"></div>\r\n-      <div className=\"flex justify-between text-xs \">\r\n+      <div className=\"flex justify-between text-xs my-3 \">\r\n         <div>Copyright © 2024 G3n.ai. All rights reserved.</div>\r\n         <div>Terms of Use & Privacy Policy</div>\r\n       </div>\r\n     </div>\r\n"
+                },
+                {
+                    "date": 1708664993361,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n \r\n const FooterCopyright = () => {\r\n   return (\r\n     <div >\r\n-      <div className=\"h-[0.7px] w-full bg-white my-2\"></div>\r\n+      <div className=\"h-[0.7px] w-full bg-white my-3\"></div>\r\n       <div className=\"flex justify-between text-xs my-3 \">\r\n         <div>Copyright © 2024 G3n.ai. All rights reserved.</div>\r\n         <div>Terms of Use & Privacy Policy</div>\r\n       </div>\r\n"
+                },
+                {
+                    "date": 1708665025475,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n const FooterCopyright = () => {\r\n   return (\r\n     <div >\r\n       <div className=\"h-[0.7px] w-full bg-white my-3\"></div>\r\n-      <div className=\"flex justify-between text-xs my-3 \">\r\n+      <div className=\"flex justify-between text-xs font-thin my-2 \">\r\n         <div>Copyright © 2024 G3n.ai. All rights reserved.</div>\r\n         <div>Terms of Use & Privacy Policy</div>\r\n       </div>\r\n     </div>\r\n"
+                },
+                {
+                    "date": 1708665033227,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n const FooterCopyright = () => {\r\n   return (\r\n     <div >\r\n       <div className=\"h-[0.7px] w-full bg-white my-3\"></div>\r\n-      <div className=\"flex justify-between text-xs font-thin my-2 \">\r\n+      <div className=\"flex justify-between text-xs font-light my-2 \">\r\n         <div>Copyright © 2024 G3n.ai. All rights reserved.</div>\r\n         <div>Terms of Use & Privacy Policy</div>\r\n       </div>\r\n     </div>\r\n"
+                }
+            ],
+            "date": 1708664562210,
+            "name": "Commit-0",
+            "content": "import React from 'react'\r\n\r\nconst FooterCopyright = () => {\r\n  return (\r\n    <div>\r\n        <div className='h-1 w-full bg-white'></div>\r\n        <div></div>\r\n    </div>\r\n  )\r\n}\r\n\r\nexport default FooterCopyright"
+        }
+    ]
+}

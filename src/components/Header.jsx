@@ -3,14 +3,13 @@ import logo from "../assets/G3nAI.png";
 
 const Header = () => {
   return (
-    <div className="w-full h-[10vh]  py-4 flex justify-between items-center">
+    <div className="w-full h-[10vh]  py-4 flex justify-between items-center sticky top-0 z-50 backdrop-blur-sm ">
       <div className="logo w-[6.5rem] cursor-pointer ">
         <img src={logo} alt="logo" />
       </div>
-      <div className="navitems flex gap-8 text-[14px] font-medium ">
-        <div className="navhover cursor-pointer hover:">Products</div>
+      <div className="navitems flex gap-8 text-[14.5px] font-semibold ">
+        <div className="navhover cursor-pointer   hover:">Products</div>
         <div className="navhover cursor-pointer hover:">Team</div>
-        <div className="navhover cursor-pointer hover:">FAQ</div>
       </div>
       <div className="flex gap-4">
         <div className="  cursor-pointer hover:">

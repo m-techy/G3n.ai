@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 19,
+            "activePatchIndex": 24,
             "patches": [
                 {
                     "date": 1708498725037,
@@ -84,6 +84,26 @@
                 {
                     "date": 1708596405522,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,26 +1,16 @@\n import React from 'react'\r\n import Header from './Header'\r\n import Hero from './Hero'\r\n+import Features from './Features'\r\n \r\n const Home = () => {\r\n   return (\r\n     <div className='h-screen w-full px-[10%] bg-black text-white'>\r\n         <Header></Header>\r\n         <Hero></Hero>\r\n+        <Features></Features>\r\n     </div>\r\n   )\r\n }\r\n \r\n export default Home\r\n-import React from 'react'\r\n-import Header from './Header'\r\n-\r\n-const Home = () => {\r\n-  return (\r\n-    <div className='h-screen w-full px-[10%] bg-black text-white'>\r\n-        <Header></Header>\r\n-    </div>\r\n-  )\r\n-}\r\n-\r\n-export default Home\r\n"
+                },
+                {
+                    "date": 1708607130242,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,12 +4,12 @@\n import Features from './Features'\r\n \r\n const Home = () => {\r\n   return (\r\n-    <div className='h-screen w-full px-[10%] bg-black text-white'>\r\n+    <div className='h-max w-full px-[10%] bg-black text-white'>\r\n         <Header></Header>\r\n         <Hero></Hero>\r\n-        <Features></Features>\r\n+        {/* <Features></Features> */}\r\n     </div>\r\n   )\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1708607166865,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n import Features from './Features'\r\n \r\n const Home = () => {\r\n   return (\r\n-    <div className='h-max w-full px-[10%] bg-black text-white'>\r\n+    <div className='h-max max-w-full px-[10%] bg-black text-white'>\r\n         <Header></Header>\r\n         <Hero></Hero>\r\n         {/* <Features></Features> */}\r\n     </div>\r\n"
+                },
+                {
+                    "date": 1708607183470,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n import Features from './Features'\r\n \r\n const Home = () => {\r\n   return (\r\n-    <div className='h-max max-w-full px-[10%] bg-black text-white'>\r\n+    <div className='h-max max-w-full overflow-x-hidden px-[10%] bg-black text-white'>\r\n         <Header></Header>\r\n         <Hero></Hero>\r\n         {/* <Features></Features> */}\r\n     </div>\r\n"
+                },
+                {
+                    "date": 1708607505558,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n   return (\r\n     <div className='h-max max-w-full overflow-x-hidden px-[10%] bg-black text-white'>\r\n         <Header></Header>\r\n         <Hero></Hero>\r\n-        {/* <Features></Features> */}\r\n+        <Features></Features>\r\n     </div>\r\n   )\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1708664579099,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,15 +1,17 @@\n import React from 'react'\r\n import Header from './Header'\r\n import Hero from './Hero'\r\n import Features from './Features'\r\n+import FooterCopyright from './FooterCopyright'\r\n \r\n const Home = () => {\r\n   return (\r\n     <div className='h-max max-w-full overflow-x-hidden px-[10%] bg-black text-white'>\r\n         <Header></Header>\r\n         <Hero></Hero>\r\n         <Features></Features>\r\n+        <FooterCopyright></FooterCopyright>\r\n     </div>\r\n   )\r\n }\r\n \r\n"
                 }
             ],
             "date": 1708498725037,

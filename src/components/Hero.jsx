@@ -4,9 +4,10 @@ import Globe from "./Globe";
 const Hero = () => {
   return (
     <div className="text-white flex w-full h-[90vh] items-center ">
+      {/* <div className="absolute bg-radial-gradient w-[120%] h-[220%]"></div> */}
       <div className="w-1/2 flex flex-col gap-4">
         <div>
-          <div className="text-4xl  font-bold from-purple-600 via-pink-600 to-blue-600 bg-gradient-to-r bg-clip-text text-transparent">
+          <div className="text-4xl  font-bold bg-gradient-to-r from-blue-500 to-sky-200  bg-gradient-to-r bg-clip-text text-transparent">
             Unleash Your Imagination
           </div>
           <div className="text-4xl font-bold">Your Portal to Creation</div>
@@ -28,7 +29,7 @@ const Hero = () => {
           </button>
         </div>
       </div>
-      <div className="w-1/2 h-[100%] overflow-hidden">
+      <div className="w-1/2 h-[100%] overflow-hidden z-20">
         <Globe></Globe>
       </div>
     </div>
