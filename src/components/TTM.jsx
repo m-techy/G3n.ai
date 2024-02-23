@@ -80,7 +80,7 @@ const TTM = () => {
               <input
                 className="h-full text-grey-darker py-2 font-semibold text-grey-darkest border border-gray-200 px-2 outline-none text-lg text-gray-600 w-[70%] bg-gray-200"
                 type="text"
-                placeholder="What do you want to learn?"
+                placeholder="Enter your prompt..."
                 value={inputText}
                 onChange={handleChange}
               />
