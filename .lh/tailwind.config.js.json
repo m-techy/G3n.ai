@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 4,
+            "activePatchIndex": 5,
             "patches": [
                 {
                     "date": 1708498400407,
@@ -24,6 +24,10 @@
                 {
                     "date": 1708500186579,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,8 @@\n /** @type {import('tailwindcss').Config} */\n+\n+const defaultTheme = require('tailwindcss/defaultTheme') \n+\n export default {\n   content: [\n     \"./index.html\",\n     \"./src/**/*.{js,jsx}\",\n"
+                },
+                {
+                    "date": 1708602320453,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,8 +11,11 @@\n     extend: {\n       fontFamily: {\n         sans: ['Inter var', ...defaultTheme.fontFamily.sans],\n       },\n+      backgroundImage: {\n+        'radial-gradient': 'radial-gradient(circle, rgba(144, 172, 255, 0.2) 0%, rgba(144, 172, 255, 0) 70%, rgba(144, 172, 255, 0) 100%)',\n+      },\n     },\n   },\n   plugins: [],\n }\n"
                 }
             ],
             "date": 1708498400407,

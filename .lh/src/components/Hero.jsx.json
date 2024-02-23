@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 55,
+            "activePatchIndex": 67,
             "patches": [
                 {
                     "date": 1708519994961,
@@ -228,6 +228,54 @@
                 {
                     "date": 1708595875313,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,9 +27,9 @@\n             </div>\r\n           </button>\r\n         </div>\r\n       </div>\r\n-      <div className=\"w-1/2 h-[110vh] overflow-hidden\">\r\n+      <div className=\"w-1/2 h-[100%] overflow-hidden\">\r\n         <Globe></Globe>\r\n       </div>\r\n     </div>\r\n   );\r\n"
+                },
+                {
+                    "date": 1708602065050,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n   return (\r\n     <div className=\"text-white flex w-full h-[90vh] items-center \">\r\n       <div className=\"w-1/2 flex flex-col gap-4\">\r\n         <div>\r\n-          <div className=\"text-4xl  font-bold from-purple-600 via-pink-600 to-blue-600 bg-gradient-to-r bg-clip-text text-transparent\">\r\n+          <div className=\"text-4xl  font-bold bg-gradient-to-r from-blue-400 to-sky-200  bg-gradient-to-r bg-clip-text text-transparent\">\r\n             Unleash Your Imagination\r\n           </div>\r\n           <div className=\"text-4xl font-bold\">Your Portal to Creation</div>\r\n         </div>\r\n"
+                },
+                {
+                    "date": 1708602119098,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n   return (\r\n     <div className=\"text-white flex w-full h-[90vh] items-center \">\r\n       <div className=\"w-1/2 flex flex-col gap-4\">\r\n         <div>\r\n-          <div className=\"text-4xl  font-bold bg-gradient-to-r from-blue-400 to-sky-200  bg-gradient-to-r bg-clip-text text-transparent\">\r\n+          <div className=\"text-4xl  font-bold bg-gradient-to-r from-blue-600 to-sky-200  bg-gradient-to-r bg-clip-text text-transparent\">\r\n             Unleash Your Imagination\r\n           </div>\r\n           <div className=\"text-4xl font-bold\">Your Portal to Creation</div>\r\n         </div>\r\n"
+                },
+                {
+                    "date": 1708602125845,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n   return (\r\n     <div className=\"text-white flex w-full h-[90vh] items-center \">\r\n       <div className=\"w-1/2 flex flex-col gap-4\">\r\n         <div>\r\n-          <div className=\"text-4xl  font-bold bg-gradient-to-r from-blue-600 to-sky-200  bg-gradient-to-r bg-clip-text text-transparent\">\r\n+          <div className=\"text-4xl  font-bold bg-gradient-to-r from-blue-500 to-sky-200  bg-gradient-to-r bg-clip-text text-transparent\">\r\n             Unleash Your Imagination\r\n           </div>\r\n           <div className=\"text-4xl font-bold\">Your Portal to Creation</div>\r\n         </div>\r\n"
+                },
+                {
+                    "date": 1708602339145,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,8 +3,9 @@\n \r\n const Hero = () => {\r\n   return (\r\n     <div className=\"text-white flex w-full h-[90vh] items-center \">\r\n+      <div className=\"absolute bg-radial-gradient\"></div>\r\n       <div className=\"w-1/2 flex flex-col gap-4\">\r\n         <div>\r\n           <div className=\"text-4xl  font-bold bg-gradient-to-r from-blue-500 to-sky-200  bg-gradient-to-r bg-clip-text text-transparent\">\r\n             Unleash Your Imagination\r\n"
+                },
+                {
+                    "date": 1708602370156,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n \r\n const Hero = () => {\r\n   return (\r\n     <div className=\"text-white flex w-full h-[90vh] items-center \">\r\n-      <div className=\"absolute bg-radial-gradient\"></div>\r\n+      <div className=\"absolute bg-radial-gradient w-5/6 h-4/6\"></div>\r\n       <div className=\"w-1/2 flex flex-col gap-4\">\r\n         <div>\r\n           <div className=\"text-4xl  font-bold bg-gradient-to-r from-blue-500 to-sky-200  bg-gradient-to-r bg-clip-text text-transparent\">\r\n             Unleash Your Imagination\r\n"
+                },
+                {
+                    "date": 1708604573273,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n \r\n const Hero = () => {\r\n   return (\r\n     <div className=\"text-white flex w-full h-[90vh] items-center \">\r\n-      <div className=\"absolute bg-radial-gradient w-5/6 h-4/6\"></div>\r\n+      <div className=\"absolute bg-radial-gradient w-[120%] h-[112%\"></div>\r\n       <div className=\"w-1/2 flex flex-col gap-4\">\r\n         <div>\r\n           <div className=\"text-4xl  font-bold bg-gradient-to-r from-blue-500 to-sky-200  bg-gradient-to-r bg-clip-text text-transparent\">\r\n             Unleash Your Imagination\r\n@@ -28,9 +28,9 @@\n             </div>\r\n           </button>\r\n         </div>\r\n       </div>\r\n-      <div className=\"w-1/2 h-[100%] overflow-hidden\">\r\n+      <div className=\"w-1/2 h-[100%] overflow-hidden z-50\">\r\n         <Globe></Globe>\r\n       </div>\r\n     </div>\r\n   );\r\n"
+                },
+                {
+                    "date": 1708605273132,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n \r\n const Hero = () => {\r\n   return (\r\n     <div className=\"text-white flex w-full h-[90vh] items-center \">\r\n-      <div className=\"absolute bg-radial-gradient w-[120%] h-[112%\"></div>\r\n+      <div className=\"absolute bg-radial-gradient w-[120%] h-[220%]\"></div>\r\n       <div className=\"w-1/2 flex flex-col gap-4\">\r\n         <div>\r\n           <div className=\"text-4xl  font-bold bg-gradient-to-r from-blue-500 to-sky-200  bg-gradient-to-r bg-clip-text text-transparent\">\r\n             Unleash Your Imagination\r\n"
+                },
+                {
+                    "date": 1708605772174,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,9 +28,9 @@\n             </div>\r\n           </button>\r\n         </div>\r\n       </div>\r\n-      <div className=\"w-1/2 h-[100%] overflow-hidden z-50\">\r\n+      <div className=\"w-1/2 h-[100%] overflow-hidden z-20\">\r\n         <Globe></Globe>\r\n       </div>\r\n     </div>\r\n   );\r\n"
+                },
+                {
+                    "date": 1708607267960,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n \r\n const Hero = () => {\r\n   return (\r\n     <div className=\"text-white flex w-full h-[90vh] items-center \">\r\n-      <div className=\"absolute bg-radial-gradient w-[120%] h-[220%]\"></div>\r\n+      <div className=\"absolute bg-radial-gradient w-[100%] h-[220%]\"></div>\r\n       <div className=\"w-1/2 flex flex-col gap-4\">\r\n         <div>\r\n           <div className=\"text-4xl  font-bold bg-gradient-to-r from-blue-500 to-sky-200  bg-gradient-to-r bg-clip-text text-transparent\">\r\n             Unleash Your Imagination\r\n"
+                },
+                {
+                    "date": 1708607275896,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n \r\n const Hero = () => {\r\n   return (\r\n     <div className=\"text-white flex w-full h-[90vh] items-center \">\r\n-      <div className=\"absolute bg-radial-gradient w-[100%] h-[220%]\"></div>\r\n+      <div className=\"absolute bg-radial-gradient ri w-[100%] h-[220%]\"></div>\r\n       <div className=\"w-1/2 flex flex-col gap-4\">\r\n         <div>\r\n           <div className=\"text-4xl  font-bold bg-gradient-to-r from-blue-500 to-sky-200  bg-gradient-to-r bg-clip-text text-transparent\">\r\n             Unleash Your Imagination\r\n"
+                },
+                {
+                    "date": 1708607494433,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,39 @@\n+import React from \"react\";\r\n+import Globe from \"./Globe\";\r\n+\r\n+const Hero = () => {\r\n+  return (\r\n+    <div className=\"text-white flex w-full h-[90vh] items-center \">\r\n+      <div className=\"absolute bg-radial-gradient w-[120%] h-[220%]\"></div>\r\n+      <div className=\"w-1/2 flex flex-col gap-4\">\r\n+        <div>\r\n+          <div className=\"text-4xl  font-bold bg-gradient-to-r from-blue-500 to-sky-200  bg-gradient-to-r bg-clip-text text-transparent\">\r\n+            Unleash Your Imagination\r\n+          </div>\r\n+          <div className=\"text-4xl font-bold\">Your Portal to Creation</div>\r\n+        </div>\r\n+        <div className=\"text-lg\">\r\n+          Experience the Power of AI: Turn Words into Art, Stories, and Music\r\n+        </div>\r\n+        <div>\r\n+          <button type=\"button\" className=\"btn\">\r\n+            <strong>Explore more</strong>\r\n+            <div id=\"container-stars\">\r\n+              <div id=\"stars\"></div>\r\n+            </div>\r\n+\r\n+            <div id=\"glow\">\r\n+              <div className=\"circle\"></div>\r\n+              <div className=\"circle\"></div>\r\n+            </div>\r\n+          </button>\r\n+        </div>\r\n+      </div>\r\n+      <div className=\"w-1/2 h-[100%] overflow-hidden z-20\">\r\n+        <Globe></Globe>\r\n+      </div>\r\n+    </div>\r\n+  );\r\n+};\r\n+\r\n+export default Hero;\r\n"
+                },
+                {
+                    "date": 1708664245890,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n \r\n const Hero = () => {\r\n   return (\r\n     <div className=\"text-white flex w-full h-[90vh] items-center \">\r\n-      <div className=\"absolute bg-radial-gradient w-[120%] h-[220%]\"></div>\r\n+      {/* <div className=\"absolute bg-radial-gradient w-[120%] h-[220%]\"></div> */}\r\n       <div className=\"w-1/2 flex flex-col gap-4\">\r\n         <div>\r\n           <div className=\"text-4xl  font-bold bg-gradient-to-r from-blue-500 to-sky-200  bg-gradient-to-r bg-clip-text text-transparent\">\r\n             Unleash Your Imagination\r\n@@ -36,43 +36,4 @@\n   );\r\n };\r\n \r\n export default Hero;\r\n-import React from \"react\";\r\n-import Globe from \"./Globe\";\r\n-\r\n-const Hero = () => {\r\n-  return (\r\n-    <div className=\"text-white flex w-full h-[90vh] items-center \">\r\n-      <div className=\"absolute bg-radial-gradient ri w-[100%] h-[220%]\"></div>\r\n-      <div className=\"w-1/2 flex flex-col gap-4\">\r\n-        <div>\r\n-          <div className=\"text-4xl  font-bold bg-gradient-to-r from-blue-500 to-sky-200  bg-gradient-to-r bg-clip-text text-transparent\">\r\n-            Unleash Your Imagination\r\n-          </div>\r\n-          <div className=\"text-4xl font-bold\">Your Portal to Creation</div>\r\n-        </div>\r\n-        <div className=\"text-lg\">\r\n-          Experience the Power of AI: Turn Words into Art, Stories, and Music\r\n-        </div>\r\n-        <div>\r\n-          <button type=\"button\" className=\"btn\">\r\n-            <strong>Explore more</strong>\r\n-            <div id=\"container-stars\">\r\n-              <div id=\"stars\"></div>\r\n-            </div>\r\n-\r\n-            <div id=\"glow\">\r\n-              <div className=\"circle\"></div>\r\n-              <div className=\"circle\"></div>\r\n-            </div>\r\n-          </button>\r\n-        </div>\r\n-      </div>\r\n-      <div className=\"w-1/2 h-[100%] overflow-hidden z-20\">\r\n-        <Globe></Globe>\r\n-      </div>\r\n-    </div>\r\n-  );\r\n-};\r\n-\r\n-export default Hero;\r\n"
                 }
             ],
             "date": 1708519994961,
