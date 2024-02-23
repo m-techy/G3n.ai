@@ -34,6 +34,8 @@ Speech Synthesis:https://github.com/omer2626/TTS_fastAPI
 3. npm install
 4. npm run dev
 
+## G3n.ai Product Architecture
 
 
+![product-architecture](https://github.com/m-techy/G3n.ai/assets/66308480/5dbdf7f2-41e9-469b-b21e-9096dc53436c)
 
