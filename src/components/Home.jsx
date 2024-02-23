@@ -10,7 +10,6 @@ const Home = () => {
     <div className='h-max max-w-full overflow-x-hidden px-[10%] bg-black text-white'>
         <Header></Header>
         <Outlet />
-        <FooterCopyright></FooterCopyright>
     </div>
   )
 }

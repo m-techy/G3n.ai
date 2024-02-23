@@ -1,6 +1,9 @@
 import React from "react";
 import FeatureComponentLeft from "./FeatureComponentLeft";
 import FeatureComponentRight from "./FeatureComponentRight";
+import abs1 from '../assets/abstract1.png';
+import abs2 from '../assets/abstract2.png';
+import abs3 from '../assets/abstract3.png';
 
 const feature1 = {
   heading: "ImagiText",
@@ -13,7 +16,7 @@ const feature1 = {
   illustrate concepts, scenes, and ideas effortlessly. From landscapes
   to characters, ImagiText fuels imagination and enriches communication
   through the power of visual representation.`,
-  image: "img",
+  image: abs1,
   route:"/TTI"
 };
 
@@ -27,7 +30,7 @@ const feature2 = {
   looking to add a creative touch to your words, HarmonyVerse seamlessly
   bridges the gap between text and sound, unlocking a world of auditory
   possibilities.`,
-  image: "img",
+  image: abs2,
   route:"/TTM"
 };
 
@@ -41,7 +44,7 @@ const feature3 = {
   seamless synthesis of text and voice, enriching communication channels
   with lifelike articulation and expression. Empower your content with
   VocalizePro and make every word resonate with authenticity and impact.`,
-  image: "img",
+  image: abs3,
   route:"/TTS"
 };
 
