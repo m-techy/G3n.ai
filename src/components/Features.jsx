@@ -14,6 +14,7 @@ const feature1 = {
   to characters, ImagiText fuels imagination and enriches communication
   through the power of visual representation.`,
   image: "img",
+  route:"/TTI"
 };
 
 const feature2 = {
@@ -27,6 +28,7 @@ const feature2 = {
   bridges the gap between text and sound, unlocking a world of auditory
   possibilities.`,
   image: "img",
+  route:"/TTM"
 };
 
 const feature3 = {
@@ -40,6 +42,7 @@ const feature3 = {
   with lifelike articulation and expression. Empower your content with
   VocalizePro and make every word resonate with authenticity and impact.`,
   image: "img",
+  route:"/TTS"
 };
 
 const Features = () => {
