@@ -27,7 +27,7 @@ Speech Synthesis
 
 ## Installation
 
-1. Clone the repository: git clone https://github.com/your-username/G3n.ai.git
+1. Clone the repository: git clone https://github.com/m-techy/G3n.ai.git
 2. Install dependencies:
 3. npm install
 4. npm run dev
