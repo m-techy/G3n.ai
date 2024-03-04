@@ -3,16 +3,16 @@ import { Link } from "react-router-dom";
 
 const FeatureComponentLeft = ({ content }) => {
   return (
-    <div className="flex items-center gap-5">
-      <div className="w-1/2 flex flex-col gap-6">
+    <div className="flex items-center gap-5 lg:flex-row md:flex-row sm:flex-col">
+      <div className="w-1/2 flex flex-col gap-6 sm:w-full sm:gap-5">
         <div className="heading">
-          <div className="text-4xl  font-bold  from-blue-500 to-sky-200  bg-gradient-to-r bg-clip-text text-transparent">
+          <div className="text-4xl  font-bold  from-blue-500 to-sky-200  bg-gradient-to-r bg-clip-text text-transparent ">
             {content.heading}
           </div>
-          <div className="text-4xl font-bold">{content.caption}</div>
+          <div className="text-4xl font-bold ">{content.caption}</div>
         </div>
         <div className="description text-sm text-justify">{content.desc}</div>
-        <Link to={`${content.route}`}>
+        <Link to={`${content.route}`} className="!w-fit flex">
           <button className="Explore-Button">
             <span className="IconContainer">
               <svg
@@ -136,7 +136,7 @@ const FeatureComponentLeft = ({ content }) => {
           </button>
         </Link>
       </div>
-      <div className="image w-1/2">
+      <div className="image w-1/2 sm:w-full">
         <img src={content.image} alt="" />
       </div>
     </div>

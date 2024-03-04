@@ -50,7 +50,7 @@ const feature3 = {
 
 const Features = () => {
   return (
-    <div className="flex flex-col gap-16 py-2 h-[100%] overflow-hidden ">
+    <div className="flex flex-col gap-16 py-2 h-[100%] overflow-hidden px-[10%] ">
       {/* <div className="absolute bg-radial-gradient w-[169vh] h-[192vh]"></div> */}
       <FeatureComponentLeft content={feature1}></FeatureComponentLeft>
       <FeatureComponentRight content={feature2}></FeatureComponentRight>
