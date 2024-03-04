@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 26,
+            "activePatchIndex": 27,
             "patches": [
                 {
                     "date": 1708498725037,
@@ -112,6 +112,10 @@
                 {
                     "date": 1708682856384,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,17 @@\n+import React from 'react'\r\n+import Header from './Header'\r\n+import Hero from './Hero'\r\n+import Features from './Features'\r\n+import FooterCopyright from './FooterCopyright'\r\n+import { Outlet } from 'react-router-dom'\r\n+\r\n+const Home = () => {\r\n+  return (\r\n+    <div className='h-max max-w-full overflow-x-hidden px-[10%] bg-black text-white'>\r\n+        <Header></Header>\r\n+        <Outlet />\r\n+    </div>\r\n+  )\r\n+}\r\n+\r\n+export default Home\r\n"
+                },
+                {
+                    "date": 1709557398247,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,32 +6,12 @@\n import { Outlet } from 'react-router-dom'\r\n \r\n const Home = () => {\r\n   return (\r\n-    <div className='h-max max-w-full overflow-x-hidden px-[10%] bg-black text-white'>\r\n+    <div className='h-max max-w-full overflow-x-hidden bg-black text-white'>\r\n         <Header></Header>\r\n         <Outlet />\r\n     </div>\r\n   )\r\n }\r\n \r\n export default Home\r\n-import React from 'react'\r\n-import Header from './Header'\r\n-import Hero from './Hero'\r\n-import Features from './Features'\r\n-import FooterCopyright from './FooterCopyright'\r\n-import Team from './Team'\r\n-\r\n-const Home = () => {\r\n-  return (\r\n-    <div className='h-max max-w-full overflow-x-hidden px-[10%] bg-black text-white'>\r\n-        <Header></Header>\r\n-        {/* <Hero></Hero>\r\n-        <Features></Features>\r\n-        <FooterCopyright></FooterCopyright> */}\r\n-        <Team></Team>\r\n-    </div>\r\n-  )\r\n-}\r\n-\r\n-export default Home\r\n"
                 }
             ],
             "date": 1708498725037,

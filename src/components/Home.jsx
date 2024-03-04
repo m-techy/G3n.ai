@@ -7,7 +7,7 @@ import { Outlet } from 'react-router-dom'
 
 const Home = () => {
   return (
-    <div className='h-max max-w-full overflow-x-hidden px-[10%] bg-black text-white'>
+    <div className='h-max max-w-full overflow-x-hidden bg-black text-white'>
         <Header></Header>
         <Outlet />
     </div>

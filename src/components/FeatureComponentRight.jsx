@@ -3,11 +3,11 @@ import { Link } from "react-router-dom";
 
 const FeatureComponentRight = ({ content }) => {
   return (
-    <div className="flex items-center">
-      <div className="image w-1/2">
+    <div className="flex items-center sm:flex-col-reverse">
+      <div className="image w-1/2 sm:w-full">
       <img src={content.image} alt="" />
       </div>
-      <div className="w-1/2 flex flex-col gap-6">
+      <div className="w-1/2 flex flex-col gap-6 sm:w-full">
         <div className="heading">
           <div className="text-4xl  font-bold from-blue-500 to-sky-200  bg-gradient-to-r bg-clip-text text-transparent">
             {content.heading}
@@ -15,7 +15,7 @@ const FeatureComponentRight = ({ content }) => {
           <div className="text-4xl font-bold">{content.caption}</div>
         </div>
         <div className="description text-sm text-justify">{content.desc}</div>
-        <Link to={`${content.route}`}>
+        <Link to={`${content.route}`} className="!w-fit flex">
           <button className="Explore-Button">
             <span className="IconContainer">
               <svg

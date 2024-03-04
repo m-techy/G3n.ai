@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 21,
+            "activePatchIndex": 24,
             "patches": [
                 {
                     "date": 1708664562211,
@@ -92,6 +92,18 @@
                 {
                     "date": 1708665033227,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n const FooterCopyright = () => {\r\n   return (\r\n     <div >\r\n       <div className=\"h-[0.7px] w-full bg-white my-3\"></div>\r\n-      <div className=\"flex justify-between text-xs font-thin my-2 \">\r\n+      <div className=\"flex justify-between text-xs font-light my-2 \">\r\n         <div>Copyright © 2024 G3n.ai. All rights reserved.</div>\r\n         <div>Terms of Use & Privacy Policy</div>\r\n       </div>\r\n     </div>\r\n"
+                },
+                {
+                    "date": 1709557464373,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import React from \"react\";\r\n \r\n const FooterCopyright = () => {\r\n   return (\r\n-    <div >\r\n+    <div className=\"px-[10%]\" >\r\n       <div className=\"h-[0.7px] w-full bg-white my-3\"></div>\r\n       <div className=\"flex justify-between text-xs font-light my-2 \">\r\n         <div>Copyright © 2024 G3n.ai. All rights reserved.</div>\r\n         <div>Terms of Use & Privacy Policy</div>\r\n"
+                },
+                {
+                    "date": 1709557470494,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import React from \"react\";\r\n \r\n const FooterCopyright = () => {\r\n   return (\r\n-    <div className=\"px-[10%]\" >\r\n+    <div >\r\n       <div className=\"h-[0.7px] w-full bg-white my-3\"></div>\r\n       <div className=\"flex justify-between text-xs font-light my-2 \">\r\n         <div>Copyright © 2024 G3n.ai. All rights reserved.</div>\r\n         <div>Terms of Use & Privacy Policy</div>\r\n"
+                },
+                {
+                    "date": 1709557517202,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import React from \"react\";\r\n \r\n const FooterCopyright = () => {\r\n   return (\r\n-    <div >\r\n+    <div className=\"px-[10%]\">\r\n       <div className=\"h-[0.7px] w-full bg-white my-3\"></div>\r\n       <div className=\"flex justify-between text-xs font-light my-2 \">\r\n         <div>Copyright © 2024 G3n.ai. All rights reserved.</div>\r\n         <div>Terms of Use & Privacy Policy</div>\r\n"
                 }
             ],
             "date": 1708664562210,
