@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 88,
+            "activePatchIndex": 89,
             "patches": [
                 {
                     "date": 1708666149896,
@@ -360,6 +360,10 @@
                 {
                     "date": 1709730567140,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -44,9 +44,9 @@\n     // Shuffle developers array before rendering\r\n     const shuffledDevelopers = shuffleArray([...developers]);\r\n \r\n     return (\r\n-      <div className='flex flex-col items-center justify-start pt-8 gap-8 text-white w-full h-[100vh] pt-[6%] sm:pt-[20%%] md:pt-[8%]'>\r\n+      <div className='flex flex-col items-center justify-start pt-8 gap-8 text-white w-full h-[100vh] pt-[6%] sm:pt-[18%] md:pt-[8%]'>\r\n           <div className='rounded-[30px] border-solid border-2 border-white text-[26px] font-medium w-fit px-[25px] py-[4px] from-blue-500 to-sky-200 bg-gradient-to-r bg-clip-text text-transparent'>Meet our team</div>\r\n           <div className='flex flex-wrap justify-center gap-12 mt-8'>\r\n               {shuffledDevelopers.map((dev, index) => (\r\n                   <div key={index} className='flex flex-col items-center'>\r\n"
+                },
+                {
+                    "date": 1709791228937,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -44,9 +44,9 @@\n     // Shuffle developers array before rendering\r\n     const shuffledDevelopers = shuffleArray([...developers]);\r\n \r\n     return (\r\n-      <div className='flex flex-col items-center justify-start pt-8 gap-8 text-white w-full h-[100vh] pt-[6%] sm:pt-[18%] md:pt-[8%]'>\r\n+      <div className='flex flex-col items-center justify-start pt-8 gap-8 text-white w-full h-[100vh] pt-[6%] sm:pt-[10vh] md:pt-[8%]'>\r\n           <div className='rounded-[30px] border-solid border-2 border-white text-[26px] font-medium w-fit px-[25px] py-[4px] from-blue-500 to-sky-200 bg-gradient-to-r bg-clip-text text-transparent'>Meet our team</div>\r\n           <div className='flex flex-wrap justify-center gap-12 mt-8'>\r\n               {shuffledDevelopers.map((dev, index) => (\r\n                   <div key={index} className='flex flex-col items-center'>\r\n"
                 }
             ],
             "date": 1708666149896,
