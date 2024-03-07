@@ -6,6 +6,7 @@ import FooterCopyright from './FooterCopyright'
 const HomePage = () => {
   return (
     <>
+        
         <Hero></Hero>
         <Features></Features>
         <FooterCopyright></FooterCopyright>

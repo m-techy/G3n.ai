@@ -1,0 +1,22 @@
+{
+    "sourceFile": "src/components/Layout.jsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 1,
+            "patches": [
+                {
+                    "date": 1709704424874,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1709704564471,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,20 +1,14 @@\n import React, { useRef, useEffect } from 'react';\r\n import { useLocation } from 'react-router-dom';\r\n-import Scrollbar from 'smooth-scrollbar';\r\n \r\n const Layout = ({ children }) => {\r\n-  const scrollContainerRef = useRef(null);\r\n   const location = useLocation();\r\n \r\n   useEffect(() => {\r\n-    const scrollbar = Scrollbar.init(scrollContainerRef.current);\r\n-\r\n-    return () => {\r\n-      scrollbar.destroy();\r\n-    };\r\n+    window.scrollTo(0, 0);\r\n   }, [location]);\r\n \r\n-  return <div ref={scrollContainerRef}>{children}</div>;\r\n+  return <div>{children}</div>;\r\n };\r\n \r\n export default Layout;\r\n"
+                }
+            ],
+            "date": 1709704424874,
+            "name": "Commit-0",
+            "content": "import React, { useRef, useEffect } from 'react';\r\nimport { useLocation } from 'react-router-dom';\r\nimport Scrollbar from 'smooth-scrollbar';\r\n\r\nconst Layout = ({ children }) => {\r\n  const scrollContainerRef = useRef(null);\r\n  const location = useLocation();\r\n\r\n  useEffect(() => {\r\n    const scrollbar = Scrollbar.init(scrollContainerRef.current);\r\n\r\n    return () => {\r\n      scrollbar.destroy();\r\n    };\r\n  }, [location]);\r\n\r\n  return <div ref={scrollContainerRef}>{children}</div>;\r\n};\r\n\r\nexport default Layout;\r\n"
+        }
+    ]
+}

@@ -1,0 +1,102 @@
+{
+    "sourceFile": "src/components/SmoothScroll.jsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 21,
+            "patches": [
+                {
+                    "date": 1709704138815,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1709705418833,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,24 +1,9 @@\n-import React, { useRef, useEffect } from 'react';\r\n-import Scrollbar from 'smooth-scrollbar';\r\n+import React from 'react'\r\n \r\n-const SmoothScrollbarWrapper = ({ children }) => {\r\n-  const scrollContainerRef = useRef(null);\r\n-\r\n-  useEffect(() => {\r\n-    const scrollbar = Scrollbar.init(scrollContainerRef.current, {\r\n-      // Add your Smooth Scrollbar options here\r\n-    });\r\n-\r\n-    return () => {\r\n-      scrollbar.destroy();\r\n-    };\r\n-  }, []);\r\n-\r\n+const SmoothScroll = () => {\r\n   return (\r\n-    <div ref={scrollContainerRef} style={{ width: '100vw', height: '100vh', overflow: 'hidden' }}>\r\n-      {children}\r\n-    </div>\r\n-  );\r\n-};\r\n+    <div>SmoothScroll</div>\r\n+  )\r\n+}\r\n \r\n-export default SmoothScrollbarWrapper;\r\n+export default SmoothScroll\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1709705435947,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,7 @@\n import React from 'react'\r\n \r\n const SmoothScroll = () => {\r\n-  return (\r\n-    <div>SmoothScroll</div>\r\n-  )\r\n+  return null;\r\n }\r\n \r\n export default SmoothScroll\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1709705469163,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,6 @@\n import React from 'react'\r\n+import { useEffect } from 'react'\r\n \r\n const SmoothScroll = () => {\r\n   return null;\r\n }\r\n-\r\n\\ No newline at end of file\n-export default SmoothScroll\n"
+                },
+                {
+                    "date": 1709705673866,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,12 @@\n import React from 'react'\r\n import { useEffect } from 'react'\r\n \r\n const SmoothScroll = () => {\r\n+    useEffect(()=>{\r\n+        effect\r\n+        return()=>{\r\n+            cleanup\r\n+        }\r\n+    },[input])\r\n   return null;\r\n }\r\n"
+                },
+                {
+                    "date": 1709705706277,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,4 +9,6 @@\n         }\r\n     },[input])\r\n   return null;\r\n }\r\n+\r\n+export default SmoothScroll\r\n"
+                },
+                {
+                    "date": 1709705742305,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,7 @@\n import React from 'react'\r\n import { useEffect } from 'react'\r\n+import Scrollbar from 'smooth-scrollbar';\r\n \r\n const SmoothScroll = () => {\r\n     useEffect(()=>{\r\n         effect\r\n"
+                },
+                {
+                    "date": 1709705756945,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,13 +3,9 @@\n import Scrollbar from 'smooth-scrollbar';\r\n \r\n const SmoothScroll = () => {\r\n     useEffect(()=>{\r\n-        effect\r\n-        return()=>{\r\n-            cleanup\r\n-        }\r\n-    },[input])\r\n+    },[])\r\n   return null;\r\n }\r\n \r\n export default SmoothScroll\r\n"
+                },
+                {
+                    "date": 1709705779626,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,8 +3,9 @@\n import Scrollbar from 'smooth-scrollbar';\r\n \r\n const SmoothScroll = () => {\r\n     useEffect(()=>{\r\n+        Scrollbar.init(document.querySelector('#my-scrollbar'), options);\r\n     },[])\r\n   return null;\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1709705803831,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,12 @@\n+import React from 'react'\r\n+import { useEffect } from 'react'\r\n+import Scrollbar from 'smooth-scrollbar';\r\n+\r\n+const SmoothScroll = () => {\r\n+    useEffect(()=>{\r\n+        Scrollbar.init(document.body, options);\r\n+    },[])\r\n+  return null;\r\n+}\r\n+\r\n+export default SmoothScroll\r\n"
+                },
+                {
+                    "date": 1709705892468,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,23 +1,15 @@\n import React from 'react'\r\n import { useEffect } from 'react'\r\n import Scrollbar from 'smooth-scrollbar';\r\n \r\n-const SmoothScroll = () => {\r\n-    useEffect(()=>{\r\n-        Scrollbar.init(document.body, options);\r\n-    },[])\r\n-  return null;\r\n+var options ={\r\n+    damping: 0.05,\r\n }\r\n \r\n-export default SmoothScroll\r\n-import React from 'react'\r\n-import { useEffect } from 'react'\r\n-import Scrollbar from 'smooth-scrollbar';\r\n-\r\n const SmoothScroll = () => {\r\n     useEffect(()=>{\r\n-        Scrollbar.init(document.querySelector('#my-scrollbar'), options);\r\n+        Scrollbar.init(document.body, options);\r\n     },[])\r\n   return null;\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1709720793271,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,12 @@\n+import React from 'react'\r\n+import { useEffect } from 'react'\r\n+import Scrollbar from 'smooth-scrollbar';\r\n+\r\n+const SmoothScroll = () => {\r\n+    useEffect(()=>{\r\n+        Scrollbar.init(document.getElementById('#scroll'), options);\r\n+    },[])\r\n+  return null;\r\n+}\r\n+\r\n+export default SmoothScroll\r\n"
+                },
+                {
+                    "date": 1709720832968,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,26 +3,10 @@\n import Scrollbar from 'smooth-scrollbar';\r\n \r\n const SmoothScroll = () => {\r\n     useEffect(()=>{\r\n-        Scrollbar.init(document.getElementById('#scroll'), options);\r\n+        Scrollbar.init(document.getElementById('scroll'), options);\r\n     },[])\r\n   return null;\r\n }\r\n \r\n export default SmoothScroll\r\n-import React from 'react'\r\n-import { useEffect } from 'react'\r\n-import Scrollbar from 'smooth-scrollbar';\r\n-\r\n-var options ={\r\n-    damping: 0.05,\r\n-}\r\n-\r\n-const SmoothScroll = () => {\r\n-    useEffect(()=>{\r\n-        Scrollbar.init(document.body, options);\r\n-    },[])\r\n-  return null;\r\n-}\r\n-\r\n-export default SmoothScroll\r\n"
+                },
+                {
+                    "date": 1709720865369,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n import Scrollbar from 'smooth-scrollbar';\r\n \r\n const SmoothScroll = () => {\r\n     useEffect(()=>{\r\n-        Scrollbar.init(document.getElementById('scroll'), options);\r\n+        Scrollbar.init(document.getElementById('#scroll'), options);\r\n     },[])\r\n   return null;\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1709720923634,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,11 +1,15 @@\n import React from 'react'\r\n import { useEffect } from 'react'\r\n import Scrollbar from 'smooth-scrollbar';\r\n \r\n+options{\r\n+    damping: 0.07,\r\n+}\r\n+\r\n const SmoothScroll = () => {\r\n     useEffect(()=>{\r\n-        Scrollbar.init(document.getElementById('#scroll'), options);\r\n+        Scrollbar.init(document.getElementById('#scroll'), );\r\n     },[])\r\n   return null;\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1709720929287,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,16 @@\n+import React from 'react'\r\n+import { useEffect } from 'react'\r\n+import Scrollbar from 'smooth-scrollbar';\r\n+\r\n+options={\r\n+    damping: 0.07,\r\n+}\r\n+\r\n+const SmoothScroll = () => {\r\n+    useEffect(()=>{\r\n+        Scrollbar.init(document.getElementById('#scroll'), );\r\n+    },[])\r\n+  return null;\r\n+}\r\n+\r\n+export default SmoothScroll\r\n"
+                },
+                {
+                    "date": 1709720936674,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import React from 'react'\r\n import { useEffect } from 'react'\r\n import Scrollbar from 'smooth-scrollbar';\r\n \r\n-options={\r\n+const options={\r\n     damping: 0.07,\r\n }\r\n \r\n const SmoothScroll = () => {\r\n@@ -13,20 +13,4 @@\n   return null;\r\n }\r\n \r\n export default SmoothScroll\r\n-import React from 'react'\r\n-import { useEffect } from 'react'\r\n-import Scrollbar from 'smooth-scrollbar';\r\n-\r\n-options{\r\n-    damping: 0.07,\r\n-}\r\n-\r\n-const SmoothScroll = () => {\r\n-    useEffect(()=>{\r\n-        Scrollbar.init(document.getElementById('#scroll'), );\r\n-    },[])\r\n-  return null;\r\n-}\r\n-\r\n-export default SmoothScroll\r\n"
+                },
+                {
+                    "date": 1709720944182,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n }\r\n \r\n const SmoothScroll = () => {\r\n     useEffect(()=>{\r\n-        Scrollbar.init(document.getElementById('#scroll'), );\r\n+        Scrollbar.init(document.getElementById('#scroll'),options );\r\n     },[])\r\n   return null;\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1709721077163,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import React from 'react'\r\n import { useEffect } from 'react'\r\n import Scrollbar from 'smooth-scrollbar';\r\n \r\n-const options={\r\n+var options={\r\n     damping: 0.07,\r\n }\r\n \r\n const SmoothScroll = () => {\r\n"
+                },
+                {
+                    "date": 1709721108803,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n }\r\n \r\n const SmoothScroll = () => {\r\n     useEffect(()=>{\r\n-        Scrollbar.init(document.getElementById('#scroll'),options );\r\n+        Scrollbar.init(document.getElementById('scroll'),options );\r\n     },[])\r\n   return null;\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1709721140006,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n }\r\n \r\n const SmoothScroll = () => {\r\n     useEffect(()=>{\r\n-        Scrollbar.init(document.getElementById('scroll'),options );\r\n+        Scrollbar.init(document.body,options );\r\n     },[])\r\n   return null;\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1709721377887,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n import { useEffect } from 'react'\r\n import Scrollbar from 'smooth-scrollbar';\r\n \r\n var options={\r\n-    damping: 0.07,\r\n+    damping: 0.05,\r\n }\r\n \r\n const SmoothScroll = () => {\r\n     useEffect(()=>{\r\n"
+                }
+            ],
+            "date": 1709704138815,
+            "name": "Commit-0",
+            "content": "import React, { useRef, useEffect } from 'react';\r\nimport Scrollbar from 'smooth-scrollbar';\r\n\r\nconst SmoothScrollbarWrapper = ({ children }) => {\r\n  const scrollContainerRef = useRef(null);\r\n\r\n  useEffect(() => {\r\n    const scrollbar = Scrollbar.init(scrollContainerRef.current, {\r\n      // Add your Smooth Scrollbar options here\r\n    });\r\n\r\n    return () => {\r\n      scrollbar.destroy();\r\n    };\r\n  }, []);\r\n\r\n  return (\r\n    <div ref={scrollContainerRef} style={{ width: '100vw', height: '100vh', overflow: 'hidden' }}>\r\n      {children}\r\n    </div>\r\n  );\r\n};\r\n\r\nexport default SmoothScrollbarWrapper;\r\n"
+        }
+    ]
+}

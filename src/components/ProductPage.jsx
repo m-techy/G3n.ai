@@ -3,13 +3,13 @@ import React from "react";
 import { Link } from "react-router-dom";
 const ProductPage = () => {
     return (
-        <div className="bg-black text-white h-[90vh] w-full py-12 flex flex-col gap-10 overflow-y-hidden">
-            <article className="heading text-center text-4xl font-bold bg-gradient-to-r from-blue-500 to-sky-200  bg-clip-text text-transparent">
+        <div className="bg-black text-white h-[100vh] w-full pt-[6%] py-12 flex flex-col gap-10 sm:pt-[15%] ">
+            <article className="heading text-center text-4xl font-bold bg-gradient-to-r from-blue-500 to-sky-200  bg-clip-text text-transparent sm:text-3xl">
                 GENERATIVE AI MODELS
             </article>
 
-            <div className="Work_container flex items-center gap-7">
-                <div className="flex h-[60vh] w-[33%] items-center justify-center">
+            <div className="Work_container flex items-center gap-7 px-[10%] sm:flex-col md:flex-col sm:px-0">
+                <div className="flex h-[60vh] w-[33%] items-center justify-center sm:w-[80%] md:w-[80%]">
                     <div className="h-full w-full rounded-3xl bg-gradient-to-r from-blue-500 to-sky-100 p-1">
                         <div className="flex h-full w-full flex-col items-center justify-center gap-8 bg-slate-800 rounded-3xl">
                             <div className="text-2xl font-bold bg-gradient-to-r from-blue-500 to-sky-200 bg-clip-text text-transparent">ImagiText </div>
@@ -31,7 +31,7 @@ const ProductPage = () => {
                     </div>
                 </div>
 
-                <div className="flex h-[60vh] w-[33%] items-center justify-center">
+                <div className="flex h-[60vh] w-[33%] items-center justify-center sm:w-[80%] md:w-[80%]">
                     <div className="h-full w-full rounded-3xl bg-gradient-to-r from-blue-500 to-sky-100 p-1">
                         <div className="flex h-full w-full flex-col items-center justify-center gap-8 bg-slate-800 rounded-3xl">
                             <div className="text-2xl font-bold bg-gradient-to-r from-blue-500 to-sky-200 bg-clip-text text-transparent">HarmonyVerse </div>
@@ -53,7 +53,7 @@ const ProductPage = () => {
                     </div>
                 </div>
 
-                <div className="flex h-[60vh] w-[33%] items-center justify-center">
+                <div className="flex h-[60vh] w-[33%] items-center justify-center sm:w-[80%] md:w-[80%]">
                     <div className="h-full w-full rounded-3xl bg-gradient-to-r from-blue-500 to-sky-100 p-1">
                         <div className="flex h-full w-full flex-col items-center justify-center gap-8 bg-slate-800 rounded-3xl">
                             <div className="text-2xl font-bold bg-gradient-to-r from-blue-500 to-sky-200 bg-clip-text text-transparent"> VocalizePro </div>
