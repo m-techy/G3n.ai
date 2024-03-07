@@ -45,7 +45,7 @@ const Team = () => {
     const shuffledDevelopers = shuffleArray([...developers]);
 
     return (
-      <div className='flex flex-col items-center justify-start pt-8 gap-8 text-white w-full h-[100vh] pt-[6%] sm:pt-[18%] md:pt-[8%]'>
+      <div className='flex flex-col items-center justify-start pt-8 gap-8 text-white w-full h-[100vh] pt-[6%] sm:pt-[10vh] md:pt-[8%]'>
           <div className='rounded-[30px] border-solid border-2 border-white text-[26px] font-medium w-fit px-[25px] py-[4px] from-blue-500 to-sky-200 bg-gradient-to-r bg-clip-text text-transparent'>Meet our team</div>
           <div className='flex flex-wrap justify-center gap-12 mt-8'>
               {shuffledDevelopers.map((dev, index) => (
