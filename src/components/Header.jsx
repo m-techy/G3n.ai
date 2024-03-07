@@ -82,7 +82,7 @@ const Header = () => {
           <img src={logo} alt="logo" />
         </Link>
       </div>
-      <div className="flex justify-end gap-[36%] w-[86%] sm:flex-row-reverse sm:center sm:w-[29%] sm:justify-evenly ">
+      <div className="flex justify-end gap-[36%] w-[86%] sm:flex-row-reverse sm:center sm:w-[29%] sm:justify-evenly md:gap-[20%] ">
       <div className=" flex items-center md:hidden lg:hidden xl:hidden 2xl:hidden sm:visible">
         <button onClick={toggleMenu} className="text-white outline-none">
           <svg

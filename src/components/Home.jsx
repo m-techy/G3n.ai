@@ -9,7 +9,10 @@ const Home = () => {
   return (
     <div className='h-max max-w-full overflow-x-hidden bg-black text-white'>
         <Header></Header>
+        <div id='scroll'>
         <Outlet />
+
+        </div>
     </div>
   )
 }

@@ -4,6 +4,10 @@
 /* #root{
   background-color: #000000;
 } */
+
+body{
+  height: 100vh;
+}
 .navhover:hover {
   /* background: radial-gradient(circle at 50% 50%, rgba(0, 125, 255, 0.7), transparent 20%), radial-gradient(circle at 50% 50%, rgba(0, 125, 125, 0.7), transparent 25%), radial-gradient(circle at 50% 50%, white, transparent 30%);
     ; */
@@ -354,6 +358,8 @@ strong {
     stroke-dashoffset: 1;
   }
 }
+
+
 
 /* .herosection{
   background-image :radial—gradient (circle at center, rgba(255, 255, 255, 0.005) 0, rgba(255,

@@ -3,11 +3,19 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 0,
+            "activePatchIndex": 2,
             "patches": [
                 {
                     "date": 1708683803021,
                     "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1709720650945,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,12 +1,14 @@\n import React from 'react'\r\n import Hero from './Hero'\r\n import Features from './Features'\r\n import FooterCopyright from './FooterCopyright'\r\n+import SmoothScroll from './SmoothScroll'\r\n \r\n const HomePage = () => {\r\n   return (\r\n     <>\r\n+        <SmoothScroll></SmoothScroll>\r\n         <Hero></Hero>\r\n         <Features></Features>\r\n         <FooterCopyright></FooterCopyright>\r\n     </>\r\n"
+                },
+                {
+                    "date": 1709720661223,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,14 +1,13 @@\n import React from 'react'\r\n import Hero from './Hero'\r\n import Features from './Features'\r\n import FooterCopyright from './FooterCopyright'\r\n-import SmoothScroll from './SmoothScroll'\r\n \r\n const HomePage = () => {\r\n   return (\r\n     <>\r\n-        <SmoothScroll></SmoothScroll>\r\n+        \r\n         <Hero></Hero>\r\n         <Features></Features>\r\n         <FooterCopyright></FooterCopyright>\r\n     </>\r\n"
                 }
             ],
             "date": 1708683803021,
