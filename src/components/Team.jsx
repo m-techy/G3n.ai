@@ -1,9 +1,10 @@
 import React from 'react'
 import omerpfp from'../assets/omer.jpg';
+import charanpfp from '../assets/Picsart_24-05-23_17-37-38-134~2.jpg';
 
 const dev1 = {
     name: "Charan",
-    image: "https://drive.google.com/file/d/1jvAasuEUn2LVbvX0EKTLijlNb_zYnLf0/view?usp=sharing",
+    image: charanpfp,
     linkedin: "https://www.linkedin.com/in/sri-charan-j/",
     github: "https://github.com/m-techy",
 }
