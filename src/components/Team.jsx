@@ -11,7 +11,7 @@ const dev1 = {
 
 const dev2 = {
     name: "Rakesh Rohan",
-    image: "https://media.licdn.com/dms/image/D4E03AQFOWtDAsrZ9-A/profile-displayphoto-shrink_800_800/0/1702353504502?e=1714003200&v=beta&t=dliSv5lMiycaeCR7NQkgkw5mtQNFzaeP7TKQVV3eG9A",
+    image: "https://media.licdn.com/dms/image/v2/D4E03AQFOWtDAsrZ9-A/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1702353504502?e=1732752000&v=beta&t=S_f8Ncol5WxU3MFOaFnX4KSzrM5Q6NUJ_QZ441EXwvc",
     linkedin: "https://www.linkedin.com/in/rakesh-rohan/",
     github: "https://github.com/rakeshrohan-123",
 }
@@ -25,7 +25,7 @@ const dev3 = {
 
 const dev4 = {
     name: "Sai Ram",
-    image: "https://media.licdn.com/dms/image/C4D03AQEhVPmRxwEyOQ/profile-displayphoto-shrink_800_800/0/1632234219001?e=1714003200&v=beta&t=AR6L1ozPADdyNTKzACAHJbgS8EvjbHXLRqqFgLNMmWs",
+    image: "https://media.licdn.com/dms/image/v2/D5635AQFmLf1hdBopLA/profile-framedphoto-shrink_800_800/profile-framedphoto-shrink_800_800/0/1710139614679?e=1727852400&v=beta&t=h6UFuZVysY9ONaoRcvRkILCYybriEr3ablrCnwthFfU",
     linkedin: "https://www.linkedin.com/in/sairam-ramavath/",
     github: "https://github.com/Sairam-04",
 }
