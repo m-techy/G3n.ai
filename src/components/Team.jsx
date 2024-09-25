@@ -3,7 +3,7 @@ import omerpfp from'../assets/omer.jpg';
 
 const dev1 = {
     name: "Charan",
-    image: "https://media.licdn.com/dms/image/D4E03AQFnI87XeDIDRg/profile-displayphoto-shrink_800_800/0/1707819700656?e=1714003200&v=beta&t=twExgTJ3QlCs09dtIkEFcw6o8EI1zfrE-Sg3w9d64Ug",
+    image: "https://drive.google.com/file/d/1jvAasuEUn2LVbvX0EKTLijlNb_zYnLf0/view?usp=sharing",
     linkedin: "https://www.linkedin.com/in/sri-charan-j/",
     github: "https://github.com/m-techy",
 }
