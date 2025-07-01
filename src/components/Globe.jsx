@@ -416,7 +416,7 @@ import React from "react";
 const Globe = () => {
   return (
     <iframe
-      src={`https://braneeducation.s3.ap-south-1.amazonaws.com/face_images/three/index.html`}
+      src={`https://brane-education.s3.eu-north-1.amazonaws.com/face_images/three/index.html`}
       title="Three.js Globe"
       width="100%"
       height="100%"
